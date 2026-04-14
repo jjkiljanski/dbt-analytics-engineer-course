@@ -1,14 +1,16 @@
-Welcome to your new dbt project!
+# dbt Analytics Engineer Course Repo
 
-### Using the starter project
+This repository is my personal training project for the dbt Data Analytics Engineer study path.
 
-Try running the following commands:
-- dbt build
+It was forked from the `dbt-labs/dbt-learn-gt-init` tutorial starter repository and is being developed incrementally as I work through the course exercises.
 
+The project is connected to BigQuery and is used to practice core dbt concepts such as:
+- defining sources
+- building staging and mart models
+- managing packages and macros
+- testing and documenting transformations
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](http://slack.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+To build the project locally:
+
+- `dbt deps`
+- `dbt build`
