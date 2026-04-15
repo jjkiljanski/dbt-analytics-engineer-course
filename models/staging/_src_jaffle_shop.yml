@@ -1,11 +1,14 @@
 sources:
   - name: jaffle_shop
+    description: A clone of a BigQuery dataset. This dataset is used for dbt tutorials and demos.
     database: dbt-tutorial-493213
     schema: jaffle_shop
     tables:
       - name: customers
+        description: "Raw customers data"
         columns:
           - name: id
+            description: Primary key for this table. Unique identifier for each customer.
             data_tests:
               - unique
               - not_null
